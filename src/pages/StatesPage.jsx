@@ -8,7 +8,7 @@ import {
   Alert
 } from "@mui/material";
 import useLogger from "../hooks/useLogger";
-import "../styles/StatsPage.css";
+import "../styles/StatesPage.css";
 const StatsPage = () => {
   const { shortcode } = useParams();
   const [stats, setStats] = useState(null);
